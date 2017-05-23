@@ -16,8 +16,6 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
-*.sqlite
 whoosh_index
 
 # OS generated files #
@@ -43,10 +41,6 @@ __pycache__
 *.sublime-project
 *.egg-info
 *.iml
-flaskbb/configs/production.py
-flaskbb/configs/development.py
-flaskbb/configs/*.cfg
-*.cfg
 .tox
 *.rdb
 .cache
@@ -59,4 +53,4 @@ node_modules
 .directory
 
 # Ignore plugins
-flaskbb/plugins/*
+
